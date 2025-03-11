@@ -33,5 +33,5 @@ cd gsvd
 ---
 
 ## **How to do a GSVD?**  
-The gsvd function takes two matrices as inputs and returns a dictionary with the following keys : "U1", "U2", "S1", "S2" and "X". 
+The gsvd function takes two matrices as inputs and returns a dictionary with the following keys : "U1", "U2", "S1", "S2", "X" and "gamma". 
 Please read the example for more details.
