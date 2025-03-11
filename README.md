@@ -1,12 +1,12 @@
 # **GSVD: Generalized Singular Value Decomposition**  
 
 ## **Description**  
-This repository provides an implementation of the **Generalized Singular Value Decomposition (GSVD)**, a matrix factorization technique that extends the **Singular Value Decomposition (SVD)** to two matrices.  
+This repository provides an implementation of the **Generalized Singular Value Decomposition (GSVD)**, a matrix factorization technique that extends the **Singular Value Decomposition (SVD)** to two matrices.   
 
 Given two matrices $A \in \mathbb{R}^{m \times n}$ and $B \in \mathbb{R}^{p \times n}$, the GSVD decomposes them as:  
 
 $$
-A = U_1 S_1 X^{-1}, \quad B = U_2 S_2 X^{-1}
+A = U_1 S_1 ^{T}X, \quad B = U_2 S_2 ^{T}X
 $$
 
 where:  
@@ -29,3 +29,9 @@ Simply clone the repository:
 ```bash
 git clone git@github.com:baptistefraisse/gsvd.git
 cd gsvd
+
+---
+
+## **How to do a GSVD?**  
+The gsvd function takes two matrices as inputs and returns a dictionary with the following keys : "U1", "U2", "S1", "S2" and "X". 
+Please read the example for more details.
