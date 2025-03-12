@@ -1,7 +1,7 @@
 # **GSVD: Generalized Singular Value Decomposition**  
 
 ## **Description**  
-This repository provides an implementation of the **Generalized Singular Value Decomposition (GSVD)**, a matrix factorization technique that extends the **Singular Value Decomposition (SVD)** to two matrices. The GSVD has many applications in physics and engineering.  
+This repository provides an implementation of the **Generalized Singular Value Decomposition (GSVD)**, a matrix factorization technique that extends the **Singular Value Decomposition (SVD)** to two matrices [1-3]. The GSVD has many applications in physics and engineering, as it compares the spectra of two matrices in a common space [4].  
 
 Given two matrices $A \in \mathbb{R}^{m \times n}$ and $B \in \mathbb{R}^{p \times n}$, the GSVD decomposes them as:  
 
@@ -35,3 +35,12 @@ cd gsvd
 ## **How to do a GSVD?**  
 The gsvd function takes two matrices as inputs and returns a dictionary with the following keys : "U1", "U2", "S1", "S2", "X" and "gamma". 
 Please read the example for more details.
+
+---
+
+## **References**  
+
+[1] C. F. Van Loan, SIAM J. Numer. Anal. 13, 76 (1976)
+[2] C. C. Paige et al., SIAM J. Numer. Anal. 18, 398 (1981)
+[3] S. Friedland, SIAM J. Matrix Anal. Appl. 27, 434 (2005)
+[4] K. A. Aiello et al., APL Bioeng. 2, 031909 (2018).
