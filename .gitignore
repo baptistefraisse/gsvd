@@ -1,1 +1,4 @@
 .DS_store
+*.egg-info/
+dist/
+build/

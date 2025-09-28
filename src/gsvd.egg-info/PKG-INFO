@@ -1,4 +1,4 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: gsvd
 Version: 0.1.0
 Summary: GSVD - Generalized Singular Value Decomposition
@@ -9,6 +9,7 @@ Project-URL: Issues, https://github.com/baptistefraisse/gsvd/issues
 Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 Requires-Dist: numpy>=1.22
+Requires-Dist: scipy>=1.10
 
 # **GSVD: Generalized Singular Value Decomposition**  
 
