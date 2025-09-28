@@ -6,16 +6,19 @@ import scipy.special
 import numpy as np
 import sys
 
-# Function
-
+# GSVD function
 
 def gsvd(a, b):
     """
-    Generalized Singular Value Decomposition:
-    A = U1*S1*X
-    B = U2*S2*X
-    with U1 and U2 unitaries
+    Generalized Singular Value Decomposition of a and b as:
+    a = U1*S1*X, and b = U2*S2*X, with U1 and U2 unitaries.
 
+    Args:
+        a (ndarray): Matrix size (m,n).
+        b (ndarray): Matrix size (p,n)
+    
+    Returns: 
+        gsvd_results (dict): Keys "U1", "U2", "S1", "S2", "X", "gamma".
     """
 
     # Error messages
@@ -122,4 +125,7 @@ def gsvd(a, b):
         else:
             gamma.append(s_1[k, k] / s_2[k, k])
 
-    return {"U1": u_1, "U2": u_2, "S1": s_1, "S2": s_2, "X": x, "gamma": gamma}
+    # return
+
+    gsvd_result = {"U1": u_1, "U2": u_2, "S1": s_1, "S2": s_2, "X": x, "gamma": gamma}
+    return gsvd_result

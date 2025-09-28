@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/gsvd/__init__.py
+src/gsvd/core.py
+src/gsvd.egg-info/PKG-INFO
+src/gsvd.egg-info/SOURCES.txt
+src/gsvd.egg-info/dependency_links.txt
+src/gsvd.egg-info/requires.txt
+src/gsvd.egg-info/top_level.txt
+tests/test_gsvd.py

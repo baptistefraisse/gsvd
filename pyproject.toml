@@ -1,0 +1,17 @@
+[project]
+name = "gsvd"
+version = "0.1.0"
+description = "GSVD - Generalized Singular Value Decomposition"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Baptiste Fraisse"}]
+dependencies = ["numpy>=1.22"]
+
+[project.urls]
+Homepage = "https://github.com/baptistefraisse/gsvd"
+Issues = "https://github.com/baptistefraisse/gsvd/issues"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"

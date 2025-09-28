@@ -23,7 +23,7 @@ s_2 = gsvd_result["S2"]
 x = gsvd_result["X"]
 gamma = gsvd_result["gamma"]
 
-# Printing results
+# Results printing
 
 print("U1=", u_1)
 print("U2=", u_2)
